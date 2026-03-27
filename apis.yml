@@ -1,0 +1,42 @@
+aid: httpx
+name: HTTPX
+description: >-
+  HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+      - Clients
+      - Python
+      - HTTP Client
+      - Async
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/httpx/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: httpx:httpx
+    name: HTTPX
+    description: >-
+      HTTPX is a fully featured HTTP client for Python 3 with sync and async APIs, HTTP/1.1 and HTTP/2 support.
+    humanURL: https://www.python-httpx.org
+    tags:
+        - Clients
+        - Python
+        - HTTP Client
+        - Async
+    properties:
+      - type: Documentation
+        url: https://www.python-httpx.org
+      - type: Getting Started
+        url: https://www.python-httpx.org/quickstart/
+common:
+  - type: Website
+    url: https://www.python-httpx.org
+  - type: Documentation
+    url: https://www.python-httpx.org
+  - type: GitHub Organization
+    url: https://github.com/encode/httpx
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
