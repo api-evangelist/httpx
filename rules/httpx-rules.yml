@@ -1,0 +1,50 @@
+aid: httpx:httpx-rules
+name: HTTPX Rules
+description: >-
+  Rules and guidelines for using the HTTPX Python HTTP client library
+  effectively in synchronous and asynchronous applications.
+type: Rules
+tags:
+  - Async
+  - HTTP Client
+  - Python
+  - Rules
+rules:
+  - name: Reuse Clients
+    description: >-
+      Instantiate a single httpx.Client or httpx.AsyncClient and reuse it
+      across requests. Creating a new client per request wastes connection
+      pooling and TLS resources.
+  - name: Use Async Client For Concurrency
+    description: >-
+      Use httpx.AsyncClient inside async code paths. Mixing sync and async
+      transports inside the same event loop can block the loop and degrade
+      performance.
+  - name: Set Explicit Timeouts
+    description: >-
+      Always configure connect, read, write, and pool timeouts. HTTPX
+      enforces strict timeouts and the default may not match your service
+      level requirements.
+  - name: Verify TLS By Default
+    description: >-
+      Leave certificate verification enabled. Disable it only for trusted
+      development scenarios and never in production traffic.
+  - name: Stream Large Responses
+    description: >-
+      Use the stream interface for large response bodies to avoid loading
+      the entire payload into memory.
+  - name: Handle Redirects Explicitly
+    description: >-
+      Redirects are not followed by default. Enable follow_redirects when
+      you want requests behavior, and bound max_redirects to avoid loops.
+  - name: Use HTTP/2 When Beneficial
+    description: >-
+      Enable http2=True on the client when talking to HTTP/2 capable
+      origins for multiplexed performance gains. Install the http2 extra.
+  - name: Pin The Library Version
+    description: >-
+      Pin httpx in requirements files. The library is pre 1.0 in some
+      tracks and minor releases can introduce breaking changes.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
