@@ -36,7 +36,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.python-httpx.org
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.python-httpx.org/quickstart/
       - type: Repository
         url: https://github.com/encode/httpx
@@ -49,7 +49,7 @@ common:
     url: https://www.python-httpx.org
   - type: Documentation
     url: https://www.python-httpx.org
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/encode/httpx
 maintainers:
   - FN: Kin Lane
