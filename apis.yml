@@ -7,7 +7,7 @@ description: >-
   timeouts, type annotations, direct WSGI and ASGI transport, SSL
   verification, cookie persistence, proxy support, and multipart uploads.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Async
   - Clients
