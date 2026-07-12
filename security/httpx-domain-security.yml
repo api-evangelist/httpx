@@ -1,0 +1,15 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.python-httpx.org
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 18:30:53 2026 GMT
+  hsts: false
+domains:
+- domain: python-httpx.org
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

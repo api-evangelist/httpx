@@ -45,6 +45,8 @@ apis:
       - type: Rules
         url: rules/httpx-rules.yml
 common:
+  - type: DomainSecurity
+    url: security/httpx-domain-security.yml
   - type: Website
     url: https://www.python-httpx.org
   - type: Documentation
