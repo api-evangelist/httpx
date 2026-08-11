@@ -57,6 +57,15 @@ apis:
       - type: Rules
         url: rules/httpx-rules.yml
 common:
+  - type: Releases
+    url: https://github.com/encode/httpx/releases
+  - type: CodeOfConduct
+    url: https://github.com/encode/httpx/blob/master/docs/code_of_conduct.md
+  - type: ContributionGuide
+    url: https://github.com/encode/httpx/blob/master/.github/CONTRIBUTING.md
+  - type: License
+    name: BSD-3-Clause
+    url: https://github.com/encode/httpx/blob/master/LICENSE
   - type: DomainSecurity
     url: security/httpx-domain-security.yml
   - type: Website
