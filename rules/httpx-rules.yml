@@ -1,10 +1,10 @@
-aid: httpx:httpx-rules
-name: HTTPX Rules
+x-aid: httpx:httpx-rules
+x-name: HTTPX Rules
 description: >-
   Rules and guidelines for using the HTTPX Python HTTP client library
   effectively in synchronous and asynchronous applications.
-type: Rules
-tags:
+x-type: Rules
+x-tags:
   - Async
   - HTTP Client
   - Python
@@ -45,6 +45,6 @@ rules:
     description: >-
       Pin httpx in requirements files. The library is pre 1.0 in some
       tracks and minor releases can introduce breaking changes.
-maintainers:
+x-maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
